@@ -4,17 +4,14 @@
 :toc:
 :toc-placement!:
 
-A curated list of awesome Kotlin related stuff Inspired by awesome-java.
-
 image::https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg[Awesome, link="https://github.com/sindresorhus/awesome"]
-image:https://api.travis-ci.org/KotlinBy/awesome-kotlin.svg?branch=master["Build Status", link="https://travis-ci.org/KotlinBy/awesome-kotlin"]
 
 *Checkout Russian`s new site with search and repository stars:* http://kotlin.link/[http://kotlin.link/]
 
 toc::[]
 
-== Links
-=== Official Links
+== Links 链接
+=== Official Links 官方链接
 * https://github.com/jetbrains/kotlin[JetBrains/kotlin^] 
 * http://kotlinlang.org/[Home Page^] 
 * http://kotlinlang.org/docs/reference/[Language Reference^] 
@@ -25,7 +22,7 @@ toc::[]
 * https://twitter.com/kotlin[Twitter^] 
 * https://github.com/Kotlin/KEEP[Kotlin/KEEP^] - Kotlin Evolution and Enhancement Process
 
-=== Resources
+=== Resources 资源
 * https://www.reddit.com/r/Kotlin/[/r/Kotlin^] 
 * https://www.quora.com/topic/Kotlin[Quora Kotlin^] 
 * https://github.com/trending?l=kotlin[Trending Kotlin on Github^] 
@@ -33,13 +30,13 @@ toc::[]
 * https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237[LinkedIn: Kotlin Developers (Join!)^] 
 * https://plus.google.com/communities/104597899765146112928[Kotlin - Google+^] 
 
-=== Books
+=== Books 书籍
 * https://manning.com/books/kotlin-in-action[Kotlin in Action - Dmitry Jemerov, Svetlana Isakova^] 
 * https://leanpub.com/kotlin-for-android-developers[Kotlin for Android Developers - Antonio Leiva^] 
 
 
-== Libraries/Frameworks
-=== Web
+== Libraries/Frameworks 库/框架
+=== Web Web
 * https://github.com/Kotlin/ktor[Kotlin/ktor^] - Web backend framework for Kotlin.
 * https://github.com/TinyMission/kara[TinyMission/kara^] - Web framework written in Kotlin.
 * https://github.com/jean79/yested[jean79/yested^] - A Kotlin framework for building web applications in Javascript.
@@ -49,7 +46,7 @@ toc::[]
 * https://github.com/kohesive/kovert[kohesive/kovert^] - An invisible, super easy and powerful REST and Web framework over Vert.x or Undertow.
 * https://github.com/sdeleuze/spring-kotlin[sdeleuze/spring-kotlin^] - Kotlin extensions for Spring projects.
 
-=== Tests
+=== Tests 测试
 * https://github.com/jetbrains/spek[JetBrains/spek^] - A specification framework for Kotlin.
 * https://github.com/npryce/hamkrest[npryce/hamkrest^] - A reimplementation of Hamcrest to take advantage of Kotlin language features.
 * https://github.com/nhaarman/mockito-kotlin[nhaarman/mockito-kotlin^] - Using Mockito with Kotlin.
@@ -60,24 +57,24 @@ toc::[]
 * https://github.com/raniejade/kspec[raniejade/kspec^] - Kotlin Specification Framework.
 * https://github.com/EPadronU/balin[EPadronU/balin^] - Balin is a browser automation library for Kotlin. It's basically a Selenium-WebDriver wrapper library inspired by Geb.
 
-=== Dependency Injection
+=== Dependency Injection 依赖注入
 * https://github.com/SalomonBrys/Kodein[SalomonBrys/Kodein^] - Painless Kotlin Dependency Injection .
 * https://github.com/kohesive/injekt[kohesive/injekt^] - Dependency Injection / Object Factory for Kotlin
 
-=== Functional Programming
+=== Functional Programming 函数式编程
 * https://github.com/MarioAriasC/funKTionale[MarioAriasC/funKTionale^] - Functional constructs for Kotlin.
 * https://github.com/ReactiveX/RxKotlin[ReactiveX/RxKotlin^] - RxJava bindings for Kotlin.
 * https://github.com/kittinunf/Result[kittinunf/Result^] - The modelling for success/failure of operations in Kotlin.
 * https://github.com/brianegan/bansa[brianegan/bansa^] -  A state container for Kotlin & Java, inspired by Elm & Redux.
 
-=== JSON
+=== JSON JSON
 * https://github.com/cbeust/klaxon[cbeust/klaxon^] - Lightweight library to parse JSON in Kotlin.
 * https://github.com/SalomonBrys/Kotson[SalomonBrys/Kotson^] - Gson for Kotlin, Kotson enables you to parse and write JSON with Google's Gson using a conciser and easier syntax.
 * https://github.com/FasterXML/jackson-module-kotlin[FasterXML/jackson-module-kotlin^] - Jackson module that adds support for serialization/deserialization of Kotlin classes and data classes.
 * https://github.com/fboldog/ext4klaxon[fboldog/ext4klaxon^] - Type Extensions (Long, Int, Enum, Date) for Klaxon.
 * https://github.com/Jire/KTON[Jire/KTON^] - Object notation in pure Kotlin!
 
-=== Database
+=== Database 数据库
 * https://github.com/jetbrains/Exposed[JetBrains/Exposed^] - Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language.
 * https://github.com/cheptsov/kotlin-nosql[cheptsov/kotlin-nosql^] - NoSQL database query and access library for Kotlin.
 * https://github.com/jankotek/mapdb[jankotek/mapdb^] - MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.
@@ -85,34 +82,35 @@ toc::[]
 * https://github.com/andrewoma/kwery[andrewoma/kwery^] - Kwery is an SQL library for Kotlin.
 * https://github.com/square/sqldelight[square/sqldelight^] - Generates Java models from CREATE TABLE statements.
 
-=== Tools
+=== Tools 工具
 * https://github.com/Kotlin/dokka[Kotlin/dokka^] - Documentation Engine for Kotlin.
 * https://github.com/Levelmoney/kbuilders[Levelmoney/kbuilders^] - KBuilders turns your Java builders into beautiful Type-Safe Builders.
 * https://github.com/holgerbrandl/kscript[holgerbrandl/kscript^] - Scripting utils for Kotlin.
 
-=== Desktop
+=== Desktop 桌面
 * https://github.com/edvin/tornadofx[edvin/tornadofx^] - Lightweight JavaFX Framework for Kotlin/
 * https://github.com/griffon/griffon-kotlin-plugin[griffon/griffon-kotlin-plugin^] - Griffon Support
 * https://github.com/AlmasB/FXGL[AlmasB/FXGL^] - JavaFX 8 Game Library written in Java + Kotlin
 
-=== Http Clients
+=== Http Clients Http客户端
 * https://github.com/kittinunf/Fuel[kittinunf/Fuel^] - The easiest HTTP networking library for Kotlin/Android.
 * https://github.com/jkcclemens/khttp[jkcclemens/khttp^] - Kotlin HTTP requests library.
 
-=== Editors
+=== Editors 编辑器
 * https://github.com/JetBrains/intellij-community[JetBrains/intellij-community^] - IntelliJ IDEA Community Edition
 * https://github.com/alexmt/atom-kotlin-language[alexmt/atom-kotlin-language^] - Adds syntax highlighting to Kotlin files in Atom
 * https://github.com/vkostyukov/kotlin-sublime-package[vkostyukov/kotlin-sublime-package^] - A Sublime Package for Kotlin.
 * https://github.com/udalov/kotlin-vim[udalov/kotlin-vim^] - Kotlin Syntax Highlighter for Vim.
 * https://github.com/sargunster/kotlin-textmate-bundle[sargunster/kotlin-textmate-bundle^] - Kotlin bundle for TextMate.
+* https://github.com/ice1000/NppExtension[ice1000/NppExtension^] - Notepad highlighting, including Kotlin
 
-=== Syntax Highlighters
+=== Syntax Highlighters 语法高亮
 * https://github.com/jneen/rouge[jneen/rouge^] - A pure-ruby code highlighter that is compatible with pygments. (wip)
 * https://github.com/isagalaev/highlight.js[isagalaev/highlight.js^] - Javascript syntax highlighter. (out-of-date)
 * https://github.com/github/linguist[github/linguist^] - For Ruby/Github, uses Sublime package
 * https://bitbucket.org/birkenfeld/pygments-main[birkenfeld/pygments-main^] - Python syntax highlighter.
 
-=== JavaScript
+=== JavaScript JS
 * https://github.com/danfma/kotlinjs-react[danfma/kotlinjs-react^] - A react wrapper to the kotlin library.
 * https://github.com/andrewoma/reakt[andrewoma/reakt^] - Reakt is a Kotlin wrapper for facebook's React library.
 
@@ -133,23 +131,23 @@ toc::[]
 * https://github.com/ingokegel/jclasslib[ingokegel/jclasslib^] -  jclasslib bytecode viewer is a tool that visualizes all aspects of compiled Java class files and the contained bytecode.
 
 
-== Projects
-=== Web
+== Projects 项目
+=== Web Web
 * https://github.com/ssoudan/ktSpringTest[ssoudan/ktSpringTest^] - Basic Spring Boot app in Kotlin.
 * https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy^] - Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient.
 * https://github.com/ratpack/example-ratpack-gradle-kotlin-app[ratpack/example-ratpack-gradle-kotlin-app^] - An example of a Kotlin Ratpack app built with Gradle.
 
-=== Build tools
+=== Build tools 构建工具
 * https://github.com/cbeust/kobalt[cbeust/kobalt^] - Build system inspired by Gradle.
 * https://github.com/gradle/gradle-script-kotlin[gradle/gradle-script-kotlin^] - Kotlin language support for Gradle build scripts.
 
 === Misc
 * https://github.com/brikk/brikk[brikk/brikk^] - Brikk dependency manager (Kotlin, KotlinJS, Java, ...).
 
-=== Desktop
+=== Desktop 桌面
 * https://github.com/ice1000/Dekoder[ice1000/Dekoder^] -  A kotlin music player, materially designed.
 
-=== Examples
+=== Examples 样例
 * https://github.com/Kotlin/kotlin-koans[Kotlin/kotlin-koans^] - Kotlin Koans are a series of exercises to get you familiar with the Kotlin Syntax.
 * https://github.com/JetBrains/kotlin-examples[JetBrains/kotlin-examples^] - Various examples for Kotlin
 * https://github.com/jetbrains/swot[JetBrains/swot^] - Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.
@@ -159,8 +157,8 @@ toc::[]
 * https://github.com/dodyg/Kotlin101[dodyg/Kotlin101^] - 101 examples for Kotlin Programming language.
 
 
-== Android
-=== Libraries
+== Android Android开发
+=== Libraries 库
 * https://github.com/Kotlin/anko[Kotlin/anko^] - Pleasant Android application development.
 * https://github.com/JakeWharton/kotterknife[JakeWharton/kotterknife^] - View injection library for Android
 * https://github.com/nsk-mironov/kotlin-jetpack[nsk-mironov/kotlin-jetpack^] - A collection of useful extension methods for Android.
@@ -174,10 +172,10 @@ toc::[]
 * https://github.com/grandstaish/paperparcel[grandstaish/paperparcel^] - Boilerplate reduction library written specifically for working with Kotlin data classes on Android.
 * https://github.com/graknol/AnvilKotlin[graknol/AnvilKotlin^] - Minimal UI library for Android inspired by React.
 
-=== Frameworks
+=== Frameworks 框架
 * https://github.com/nekocode/kotgo[nekocode/kotgo^] - An android development framwork on kotlin using MVP architecture.
 
-=== Projects
+=== Projects 项目
 * https://github.com/antoniolg/Bandhook-Kotlin[antoniolg/Bandhook-Kotlin^] - A showcase music app for Android entirely written using Kotlin language.
 * https://github.com/antoniolg/Kotlin-for-Android-Developers[antoniolg/Kotlin-for-Android-Developers^] - Companion App for the book "Kotlin Android Developers"
 * https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-example^] - Example of Android project showing integration with Kotlin and Dagger 2.
@@ -189,19 +187,19 @@ toc::[]
 * https://github.com/SidneyXu/AndroidDemoIn4Languages[SidneyXu/AndroidDemoIn4Languages^] - Comparison between Java, Groovy, Scala, Kotlin in Android Development.
 
 
-== Kotlin User Groups
-=== Europe
+== Kotlin User Groups Kotlin用户组织
+=== Europe 欧洲
 * http://www.meetup.com/Stockholm-Kotlin-User-Group/[Stockholm Kotlin User Group^] - Sweden
 * http://www.meetup.com/Kotlin-Manchester/[Kotlin Developers in Manchester^] - United Kingdom
 * http://bkug.by/[Belarus Kotlin User Group^] - Belarus
 * http://www.meetup.com/de-DE/Kotlin-User-Group-Munich/[Kotlin User Group Munich^] - Deutschland
 
-=== America
+=== America 美国
 * http://www.meetup.com/Bay-Area-Kotlin-User-Group/[Bay Area Kotlin User Group^] - USA
 
-=== Asia
+=== Asia 亚洲
 * https://kotlin.doorkeeper.jp/[Japan Kotlin User Group^] - Japan
-
+* https://github.com/kotlincn/[China Kotlin User Group^] - China
 
 == Articles, Blog Posts
 === June 2016
