@@ -1,22 +1,22 @@
 
-= Awesome Kotlin
+= 中文版Awesome Kotlin
 :hardbreaks:
 :toc:
 :toc-placement!:
 
 image::https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg[Awesome, link="https://github.com/sindresorhus/awesome"]
 
-*Checkout Russian`s new site with search and repository stars:* http://kotlin.link/[http://kotlin.link/]
+*欢迎访问这个由俄罗斯人提供的搜索器：* http://kotlin.link/[http://kotlin.link/]
 
 toc::[]
 
 == Links 链接
 === Official Links 官方链接
 * https://github.com/jetbrains/kotlin[JetBrains/kotlin^] 
-* http://kotlinlang.org/[Home Page^] 
-* http://kotlinlang.org/docs/reference/[Language Reference^] 
+* http://kotlinlang.org/[官方网站^] 
+* http://kotlinlang.org/docs/reference/[官网教程^] 
 * http://kotlinslackin.herokuapp.com/[Slack (3000+ users)^] 
-* http://try.kotlinlang.org/[Try Kotlin!^] 
+* http://try.kotlinlang.org/[在线IDE^] 
 * http://blog.jetbrains.com/kotlin/[Blog^] 
 * https://youtrack.jetbrains.com/issues/KT[Issue Tracker^] 
 * https://twitter.com/kotlin[Twitter^] 
@@ -36,7 +36,7 @@ toc::[]
 
 
 == Libraries/Frameworks 库/框架
-=== Web Web
+=== Web 网络开发
 * https://github.com/Kotlin/ktor[Kotlin/ktor^] - Web backend framework for Kotlin.
 * https://github.com/TinyMission/kara[TinyMission/kara^] - Web framework written in Kotlin.
 * https://github.com/jean79/yested[jean79/yested^] - A Kotlin framework for building web applications in Javascript.
@@ -114,7 +114,7 @@ toc::[]
 * https://github.com/danfma/kotlinjs-react[danfma/kotlinjs-react^] - A react wrapper to the kotlin library.
 * https://github.com/andrewoma/reakt[andrewoma/reakt^] - Reakt is a Kotlin wrapper for facebook's React library.
 
-=== Misc
+=== Misc 杂物
 * https://github.com/Kotlin/kotlinx.reflect.lite[Kotlin/kotlinx.reflect.lite^] - Lightweight library allowing to introspect basic stuff about Kotlin symbols.
 * https://github.com/puniverse/quasar/tree/master/quasar-kotlin[puniverse/quasar^] - Fibers, Channels and Actors for the JVM.
 * https://github.com/MehdiK/Humanizer.jvm[MehdiK/Humanizer.jvm^] - Humanizer.jvm meets all your jvm needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities.
@@ -132,7 +132,7 @@ toc::[]
 
 
 == Projects 项目
-=== Web Web
+=== Web 网络编程
 * https://github.com/ssoudan/ktSpringTest[ssoudan/ktSpringTest^] - Basic Spring Boot app in Kotlin.
 * https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy^] - Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient.
 * https://github.com/ratpack/example-ratpack-gradle-kotlin-app[ratpack/example-ratpack-gradle-kotlin-app^] - An example of a Kotlin Ratpack app built with Gradle.
@@ -141,7 +141,7 @@ toc::[]
 * https://github.com/cbeust/kobalt[cbeust/kobalt^] - Build system inspired by Gradle.
 * https://github.com/gradle/gradle-script-kotlin[gradle/gradle-script-kotlin^] - Kotlin language support for Gradle build scripts.
 
-=== Misc
+=== Misc 杂物
 * https://github.com/brikk/brikk[brikk/brikk^] - Brikk dependency manager (Kotlin, KotlinJS, Java, ...).
 
 === Desktop 桌面
