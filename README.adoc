@@ -45,6 +45,7 @@ toc::[]
 * https://github.com/MarioAriasC/KotlinPrimavera[MarioAriasC/KotlinPrimavera^] - Spring support libraries for Kotlin.
 * https://github.com/kohesive/kovert[kohesive/kovert^] - An invisible, super easy and powerful REST and Web framework over Vert.x or Undertow.
 * https://github.com/sdeleuze/spring-kotlin[sdeleuze/spring-kotlin^] - Kotlin extensions for Spring projects.
+* https://github.com/hexagonkt - Hexagon toolkit to develop REST services
 
 === Tests 测试
 * https://github.com/jetbrains/spek[JetBrains/spek^] - A specification framework for Kotlin.
